@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "title": "Knyga apie gamtą",
+      "author": "Jonas Jonaitis",
+      "year": 2021,
+      "price": 20.99
+    },
+    {
+      "id": 2,
+      "title": "Kodėl mes keliaujame",
+      "author": "Petras Petraitis",
+      "year": 2020,
+      "price": 18.49
+    },
+    {
+      "id": 3,
+      "title": "Mėnulio kelionė",
+      "author": "Ieva Ivanauskaitė",
+      "year": 2019,
+      "price": 25.99
+    },
+    {
+      "id": 4,
+      "title": "Dykumos paslaptys",
+      "author": "Vaidotas Vaičiūnas",
+      "year": 2022,
+      "price": 22.49
+    },
+    {
+      "id": 5,
+      "title": "Miško istorijos",
+      "author": "Andrius Andriukaitis",
+      "year": 2023,
+      "price": 19.99
+    },
+    {
+      "id": 6,
+      "title": "Lietuvos pasididžiavimas",
+      "author": "Rūta Rūdininkaitė",
+      "year": 2018,
+      "price": 15.79
+    },
+    {
+      "id": 7,
+      "title": "Pasaulio slėpiniai",
+      "author": "Kęstutis Kairys",
+      "year": 2021,
+      "price": 24.99
+    },
+    {
+      "id": 8,
+      "title": "Dangaus kraštas",
+      "author": "Agnė Agnaitė",
+      "year": 2020,
+      "price": 27.59
+    },
+    {
+      "id": 9,
+      "title": "Prarastos civilizacijos",
+      "author": "Dainius Dainaitis",
+      "year": 2022,
+      "price": 29.99
+    },
+    {
+      "id": 10,
+      "title": "Kelionė į pasaulio centrą",
+      "author": "Živilė Žukauskaitė",
+      "year": 2024,
+      "price": 19.89
+    }
+  ]
