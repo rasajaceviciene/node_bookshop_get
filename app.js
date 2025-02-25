@@ -4,7 +4,6 @@ const url = require('url');
 const fs = require('fs');
 
 //Product data
-
 let data = fs.readFileSync(`${__dirname}/data/books.json`, 'utf-8');
 
 let books = JSON.parse(data);
@@ -16,17 +15,23 @@ const port = '8888';
 const server = http.createServer((req, res)=>{
     const {pathname, query} = url.parse(req.url, true);
     switch (pathname){
-        case '/api/v1/books': //Returns the full list of books
+        case '/api/v1/books': // Returns the full list of books
             res.writeHead(200, {
                 'Content-Type': 'application/json'
             })
             res.end(data);
             break;
-        case '/api/v1/book': //Returns book by id
-            res.writeHead(200, {
+        case '/api/v1/book': // Returns a book by id
+            /*res.writeHead(200, {
                 'Content-Type': 'application/json'
             })
-            res.end(JSON.stringify(books[query.id]));
+            res.end(JSON.stringify(books[query.id]));*/
+            const bookId = parseInt(query.id, 10); // Convert to number
+            const book = books.find(b => b.id === bookId); // Find book by id
+            res.writeHead(200, {
+                'Content-Type': 'application/json'
+            });
+            res.end(JSON.stringify(book));
             break;
                 
         default:
